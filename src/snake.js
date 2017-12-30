@@ -23,5 +23,8 @@ Snake.prototype={
   },
   turnRight:function() {
     this.head=this.head.turnRight();
+  },
+  getLength: function() {
+    return this.body.length;
   }
 }

@@ -24,3 +24,18 @@
   background-color: blue;
   border-radius: 50%;
 }
+
+#hidden_tail {
+  margin-left: 1300px;
+  margin-top: -620px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.scoreHeading {
+  font-size: 40px;
+}
+
+#score {
+  margin-top: -15px;
+}
