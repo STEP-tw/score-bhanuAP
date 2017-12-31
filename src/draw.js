@@ -13,8 +13,7 @@ const drawGrids=function(numberOfRows,numberOfCols) {
 
 const paintCell=function(pos,color) {
   let cell=document.getElementById(pos.getCoord().join("_"));
-  if(cell)
-    cell.className=color;
+  if(cell) cell.className=color;
 }
 
 const paintBody=function(pos) {
@@ -40,5 +39,5 @@ const drawFood=function(food) {
   if(food.isSuperFood())
     paintCell(food.getPosition(),"super-food");
   else
-  paintCell(food.getPosition(),"food");  
+  paintCell(food.getPosition(),"food");
 }
